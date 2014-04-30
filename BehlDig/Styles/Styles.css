@@ -1,0 +1,116 @@
+﻿body 
+{
+  background: #BCBCBC;
+  margin-top:10px;
+  margin-bottom:10px
+}
+
+#page_wrapper {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 930px;
+  text-align: left;
+  background: #EDFCF0;
+  /* border: 1px solid #018843; */
+}
+
+#page_header 
+{
+    height : 140px;
+    background : #9ACD34 url('../images/Banner1.jpg');
+    background-position : center;
+    background-repeat : no-repeat;
+
+}
+
+#main_cont
+{
+  margin-left:10px;
+  margin-right:10px;
+  font-family: verdana, arial, sans-serif;
+  font-size: 13px;
+  color: #040404;
+  /*background-color:#EDFCF0;*/
+  padding:4px;
+  border-bottom: 1px solid #018843;
+  clear:both;
+}
+
+#main_cont h1
+{
+    color: #FF6600;
+    font-size: 18px;
+}
+    
+/*#menu_bar 
+{
+    padding : 5px 15px;
+    background : #9ACD34;
+    color: #EFEFEF;
+    text-decoration: none;
+    float: left;
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    align: center;
+    width: 100%;
+    border-right: 1px solid white;
+    height: 19px;
+    background-color : #cccccc;
+}
+*/
+.MainMenu
+{
+      /*The Menu gets a white border on all four sides.*/
+    /* padding : 5px 15px; */
+    background : #9ACD34;
+    color: #EFEFEF;
+    text-decoration: none;
+    float: left;
+    /* border-right: 1px solid #fff; */
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;/*
+    align: center;        */
+    width: 100%;
+    border-right: 1px solid white;
+    /*height: 29px; */
+    background-color : #cccccc;
+
+}
+
+.MainMenu ul li
+{
+  border-right: 1px solid #fff;
+  font-family: verdana, arial, sans-serif;
+  font-size:14px;
+  font-weight: bold;
+  padding: 0px 30px;
+}
+
+#page_footer {
+  height: 85px;
+  background-color: #99CC33;
+  clear: both;
+}
+
+#page_footer p {
+  padding-top:7px;
+  padding-right:10px;
+  text-align: right;
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  color: #EDFCF0;
+  letter-spacing:1px;
+}
+
+#pic_box {
+  float:right;
+  width:250px;
+  background-color: #F6FCEC;
+  border:1px solid #AAE5A4;
+  padding:10px;
+  margin-top:10px;
+  margin-bottom:5px;
+  margin-right:8px;
+}

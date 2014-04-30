@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Home" description="Home">
+    <siteMapNode url="~/Portfolio/Portfolio.aspx" title="Our Work" description="Reviews published on this site">
+      <siteMapNode url="~/Portfolio/Wallcover.aspx" title="Wallcoverings" description="Wallpaper etc" />
+      <siteMapNode url="~/Portfolio/ceiltile.aspx" title="Ceiling Tiles" description="Ceiling TIles" />
+      <siteMapNode url="~/Portfolio/acrylic.aspx" title="Acrylic" description="Acrylics" />
+      <siteMapNode url="~/Portfolio/dimension.aspx" title="Dimensional" description="Dimensional" />
+      <siteMapNode url="~/Portfolio/banners.aspx" title="Banners" description="Banners" />
+    </siteMapNode>
+    <siteMapNode url="~/About/About.aspx" title="About" description="About this Site">
+      <siteMapNode url="~/About/Contact.aspx" title="Contact Us" description="Contact Us" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

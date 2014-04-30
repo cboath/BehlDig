@@ -1,0 +1,50 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Frontend.master.vb" Inherits="BehlDig.Frontend" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Behlmann Digital Wallcoverings</title>
+    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page_wrapper">
+
+        <div id="page_header"></div>
+        <div>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+            Orientation="Horizontal" StaticDisplayLevels="2" 
+                CssClass="MainMenu" BackColor="#9ACD34" 
+                DynamicHorizontalOffset="2" Font-Names="Elephant,Verdana" Font-Size="1em" 
+                ForeColor="#00026F" StaticSubMenuIndent="10px" 
+                StaticEnableDefaultPopOutImage="False">
+            <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#E3EAEB" />
+            <DynamicSelectedStyle BackColor="#1C5E55" />
+            <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#1C5E55" />
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    <div id="page_footer">
+        <p>Behlmann Digital<br />
+        210 St. Francois St.<br />
+        Florissant, MO 63031<br />
+        Phone: 314-921-2676<br />
+        Fax: 314-921-0276</p>
+    </div>
+
+    </div>
+
+    </form>
+</body>
+</html>
